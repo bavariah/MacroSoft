@@ -89,3 +89,30 @@ ul {
 .showcase .btn {
   margin-top: 20px;
 }
+/* box-cards */
+
+.box-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.box-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.box-cards h3 {
+  margin-bottom: 5px;
+}
+.box-cards a {
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.box-cards a:hover i {
+  transition: all 0.5s ease;
+}
+.box-cards a:hover i {
+  margin-left: 10px;
+}
