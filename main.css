@@ -41,7 +41,51 @@ ul {
 .main-nav ul li {
   padding: 0 10px;
 }
+.main-nav ul.main-menu li a {
+  padding-bottom: 2px;
+  font-weight: bold;
+}
+.main-nav ul.main-menu li a:hover {
+  border-bottom: 2px solid #262626;
+}
 .main-nav ul.main-menu {
   flex: 1;
   margin-left: 20px;
+}
+.main-nav ul.right-menu li a:hover {
+  cursor: pointer;
+}
+/* showcase */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #262626;
+  color: #fff;
+  font-size: 15px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.showcase {
+  width: 100%;
+  height: 400px;
+  background: url(/MacroSoft/img/accessory.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.showcase .btn {
+  margin-top: 20px;
 }
